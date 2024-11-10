@@ -1,0 +1,66 @@
+/* Payment Form Container */
+.payment-form {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Form Heading */
+.payment-form h1 {
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #1f3c88;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Card Element Styling */
+.card-element {
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fafafa;
+  margin-bottom: 25px;
+  transition: border-color 0.3s;
+}
+
+.card-element:focus-within {
+  border-color: #1f3c88;
+}
+
+/* Payment Button Styling */
+.payment-button {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.payment-button:disabled {
+  background-color: #b0bec5;
+  cursor: not-allowed;
+}
+
+.payment-button:hover:not(:disabled) {
+  background-color: #388e3c;
+}
+
+/* Error Message Styling */
+.error-message {
+  color: #e63946;
+  font-size: 15px;
+  margin-top: -8px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}

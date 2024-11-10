@@ -1,0 +1,36 @@
+/* Responsive Font Size and Color */
+body {
+  font-size: calc(12px + 1.5vmin);
+  color: #f5f5f5;
+  background-color: #1e272e;
+}
+
+/* Link Styling */
+.App-link {
+  color: #4dc4d1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #34a0a4;
+}
+
+/* Logo Spin Animation */
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Applying Animation to Logo */
+.App-logo {
+  animation: App-logo-spin 6s linear infinite;
+}

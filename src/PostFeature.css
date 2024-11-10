@@ -1,0 +1,97 @@
+/* Post Feature Container */
+.post-feature {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Heading Styling */
+.post-feature h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.post-feature h3 {
+  font-size: 20px;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+/* Input Styling */
+.post-feature input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 25px;
+  border: 1px solid #dfe4ea;
+  border-radius: 8px;
+  font-size: 17px;
+  background-color: #f5f6fa;
+  transition: border-color 0.3s;
+}
+
+.post-feature input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* CodeMirror Styling */
+.CodeMirror {
+  height: 220px;
+  margin-bottom: 25px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  background-color: #f7f9fb;
+}
+
+/* Textarea Styling */
+.post-feature textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  border: 1px solid #dfe4ea;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 17px;
+  background-color: #f5f6fa;
+  transition: border-color 0.3s;
+}
+
+.post-feature textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Preview Section */
+.post-feature .preview {
+  padding: 15px;
+  background-color: #fafafa;
+  border: 1px solid #dfe4ea;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+/* Button Styling */
+.post-feature button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #e67e22;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.post-feature button:hover {
+  background-color: #d35400;
+}
